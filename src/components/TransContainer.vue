@@ -5,7 +5,6 @@
     <select v-model="language">
       <option value="en">English</option>
       <option value="zh">中文</option>
-      <option value="ja">日文</option>
       <option value="ko">韩文</option>
       <option value="fr">法文</option>
     </select>
