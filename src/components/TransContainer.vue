@@ -29,7 +29,7 @@ export default {
   },
   methods:{
     formSubmit(e){
-      // 节流
+      // 防抖
       let nowTime = new Date();
       if(lastTime-nowTime < 1000){
         clearTimeout(timer);
