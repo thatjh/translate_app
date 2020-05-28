@@ -18,7 +18,7 @@
 <script>
 let timer,lastTime;
 export default {
-  name: 'transContainer',
+  // name: 'transContainer',
   data(){
     return{
       inputWords:'',
@@ -29,7 +29,7 @@ export default {
   },
   methods:{
     formSubmit(e){
-      // 防抖
+      // 节流
       let nowTime = new Date();
       if(lastTime-nowTime < 1000){
         clearTimeout(timer);

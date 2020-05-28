@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'transOutput',
+  // name: 'transOutput',
   props:['textword']
 }
 </script>
